@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+    <!-- Font Poppins sama DM Series -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+<body id="app">
+    <nav class="navbar navbar-expand-md navbar-light text-end fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-brand bg-logo p-0 justify-content-center"><i class="bi bi-braces-asterisk logo"></i>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">RUMAH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">TENTANG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabel">TABEL KETERAMPILAN</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artikel">ARTIKEL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">KONTAK</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="container-fluid cont cont-1">
+        <div class="row pt-5 h-100">
+
+            <div class="col-md-9 align-self-start mt-4 pe-0 h-100">
+                <div class="col-12 m-0 p-0">
+                    
+                    <p class="mb-4 jud">{{header.hallo}}</p>
+                    <h1 class="nama  mb-3">{{header.nama}}</h1>
+
+
+                </div>
+
+                <div class="row social mx-0">
+                    <div class="col-md-1 py-3 px-0 mx-0 text-center border-r border-t d-inline-block">
+                        <i><svg width="37" height="37" viewBox="0 0 174 174" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="87" cy="87" r="87" fill="#8F9133" />
+                                <path
+                                    d="M86.5 29C86.5 29 92.0186 57.4441 104.287 69.7127C116.556 81.9814 145 87.5 145 87.5C145 87.5 116.556 93.0186 104.287 105.287C92.0186 117.556 86.5 146 86.5 146C86.5 146 80.9814 117.556 68.7127 105.287C56.4441 93.0186 28 87.5 28 87.5C28 87.5 56.4441 81.9814 68.7127 69.7127C80.9814 57.4441 86.5 29 86.5 29Z"
+                                    fill="#1B1B1B" />
+                            </svg>
+                        </i>
+                        <div class="col-12  mt-4 ">
+                            <a href="#">
+                                <i class="bi bi-github soc-logo"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 ">
+                            <a href="#">
+                                <i class="bi bi-instagram soc-logo"></i>
+                            </a>
+                        </div>
+                        <div class="col-12 ">
+                            <a href="#">
+                                <i class="bi bi-facebook soc-logo"></i>
+                            </a>
+                        </div>
+                        <div class="col-12  mb-4">
+                            <a href="#">
+                                <i class="bi bi-twitter soc-logo"></i>
+                            </a>
+                        </div>
+                        <i id="tentang"><svg width="37" height="37" viewBox="0 0 174 174" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="87" cy="87" r="87" fill="#8F9133" />
+                                <path
+                                    d="M86.5 29C86.5 29 92.0186 57.4441 104.287 69.7127C116.556 81.9814 145 87.5 145 87.5C145 87.5 116.556 93.0186 104.287 105.287C92.0186 117.556 86.5 146 86.5 146C86.5 146 80.9814 117.556 68.7127 105.287C56.4441 93.0186 28 87.5 28 87.5C28 87.5 56.4441 81.9814 68.7127 69.7127C80.9814 57.4441 86.5 29 86.5 29Z"
+                                    fill="#1B1B1B" />
+                            </svg>
+                        </i>
+                    </div>
+                    <div class="col-3 m-auto d-none d-md-block">
+                        <img class="" src="./assets/Group 9.svg" alt="Gambar SVG">
+                    </div>
+
+
+                </div>
+
+                <div class="col-12 border-t">
+                    <p class="d-inline-block p-1 te-200">{{header.perkenalan}}</p>
+                    <ul class=" p-1 ">
+                        <li  v-for="data2 in header.bio">
+                            <p class="bio">
+                                <i class="bi bi-caret-right"></i>
+                                {{data2}} 
+                            </p>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-3 align-self-start  mt-4 ps-0 text-end brd">
+                <p class="mb-4 jud">{{header.deskripsi}}</p>
+                <div class="col m-0 p-0 d-none d-md-block">
+                    <img class="img-fluid gambar" src="./assets/foto.jpeg" alt="Foto Rikki">
+                </div>
+            </div>
+
+
+            <div class="col-md-12 bawahan">
+                <div class="bwh p-1 d-none d-md-block">
+                    <a class="mb-0 p-5 " href="#tabel"><svg class="panah" viewBox="0 0 40 51" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23.0625 12.3983L34.2974 1.16341C34.8356 0.625171 35.5657 0.322797 36.3268 0.322797C37.088 0.322797 37.818 0.625175 38.3563 1.16341C38.8945 1.70165 39.1969 2.43167 39.1969 3.19285C39.1969 3.95404 38.8945 4.68404 38.3563 5.22228L22.2223 21.3563C21.684 21.8945 20.954 22.1969 20.1929 22.1969C19.4317 22.1969 18.7017 21.8945 18.1634 21.3563L2.02943 5.22227C1.49119 4.68403 1.18881 3.95402 1.18881 3.19284C1.18881 2.43165 1.49119 1.70165 2.02943 1.16341C2.56767 0.625169 3.29768 0.322788 4.05886 0.322788C4.82005 0.322788 5.55005 0.625167 6.08829 1.16341L17.3232 12.3983C19.0001 14 21.5001 14 23.0625 12.3983Z"
+                                fill="#F2F4F3" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.3167 17.3704C17.3172 16.6088 17.6203 15.8786 18.1592 15.3405C18.6981 14.8023 19.4288 14.5003 20.1904 14.5008C20.952 14.5014 21.6822 14.8044 22.2203 15.3433C22.7585 15.8823 23.0605 16.6129 23.06 17.3745L23.0629 40.3957L34.2979 29.1608C34.8361 28.6225 35.5661 28.3202 36.3273 28.3202C37.0885 28.3202 37.8185 28.6225 38.3567 29.1608C38.8949 29.699 39.1973 30.429 39.1973 31.1902C39.1973 31.9514 38.8949 32.6814 38.3567 33.2196L22.2227 49.3536C21.6845 49.8918 20.9545 50.1942 20.1933 50.1942C19.4321 50.1942 18.7021 49.8919 18.1639 49.3536L2.02992 33.2197C1.49168 32.6814 1.1893 31.9514 1.1893 31.1902C1.1893 30.4291 1.49168 29.6991 2.02992 29.1608C2.56816 28.6226 3.29817 28.3202 4.05935 28.3202C4.82054 28.3202 5.55055 28.6226 6.08879 29.1608L17.3237 40.3957L17.3167 17.3704Z"
+                                fill="#F2F4F3" />
+                        </svg>Scroll kebawah<svg class="panah" viewBox="0 0 40 51" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23.0625 12.3983L34.2974 1.16341C34.8356 0.625171 35.5657 0.322797 36.3268 0.322797C37.088 0.322797 37.818 0.625175 38.3563 1.16341C38.8945 1.70165 39.1969 2.43167 39.1969 3.19285C39.1969 3.95404 38.8945 4.68404 38.3563 5.22228L22.2223 21.3563C21.684 21.8945 20.954 22.1969 20.1929 22.1969C19.4317 22.1969 18.7017 21.8945 18.1634 21.3563L2.02943 5.22227C1.49119 4.68403 1.18881 3.95402 1.18881 3.19284C1.18881 2.43165 1.49119 1.70165 2.02943 1.16341C2.56767 0.625169 3.29768 0.322788 4.05886 0.322788C4.82005 0.322788 5.55005 0.625167 6.08829 1.16341L17.3232 12.3983C19.0001 14 21.5001 14 23.0625 12.3983Z"
+                                fill="#F2F4F3" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.3167 17.3704C17.3172 16.6088 17.6203 15.8786 18.1592 15.3405C18.6981 14.8023 19.4288 14.5003 20.1904 14.5008C20.952 14.5014 21.6822 14.8044 22.2203 15.3433C22.7585 15.8823 23.0605 16.6129 23.06 17.3745L23.0629 40.3957L34.2979 29.1608C34.8361 28.6225 35.5661 28.3202 36.3273 28.3202C37.0885 28.3202 37.8185 28.6225 38.3567 29.1608C38.8949 29.699 39.1973 30.429 39.1973 31.1902C39.1973 31.9514 38.8949 32.6814 38.3567 33.2196L22.2227 49.3536C21.6845 49.8918 20.9545 50.1942 20.1933 50.1942C19.4321 50.1942 18.7021 49.8919 18.1639 49.3536L2.02992 33.2197C1.49168 32.6814 1.1893 31.9514 1.1893 31.1902C1.1893 30.4291 1.49168 29.6991 2.02992 29.1608C2.56816 28.6226 3.29817 28.3202 4.05935 28.3202C4.82054 28.3202 5.55055 28.6226 6.08879 29.1608L17.3237 40.3957L17.3167 17.3704Z"
+                                fill="#F2F4F3" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid cont cont-2" id="tabel">
+        <div class="row py-5 h-100">
+            <div class="col-md-5 border-r border-t break-kata text-center">
+                <h2 class="judul-l">{{tabel.judul}}</h2>
+                <div class="col-12">
+                    <div class="garis"></div>
+                    <div class="d-inline-block"><i class="bi bi-asterisk"></i></div>
+                    <div class="garis"></div>
+                    <p class="subjudul-l">{{tabel.deskripsi}}</p>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-7">
+            <table class="table">
+                    <thead>
+                        <tr>
+                            <th v-for="data in tabel.thead" scope="col">{{data}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="(data, a) in tabel.tabel_data">
+                            <th scope="row">{{a+1}}</th>
+                            <td>{{data.skill}}</td>
+                            <td>{{data.kemampuan}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid cont cont-3" id="artikel">
+        <div class="row py-5">
+
+            <div class="col-md-5 border-l border-t break-kata text-center kanan h-100">
+                <h2 class="judul-d">{{artik.judul}}</h2>
+                <div class="col-12">
+                    <div class="garis"></div>
+                    <div class="d-inline-block"><i class="bi bi-asterisk"></i></div>
+                    <div class="garis"></div>
+                    <p class="subjudul-d">{{artik.deskripsi}}</p>
+                </div>
+            </div>
+
+            <div class="col-md-7 kiri">
+                <div class="row overflow-auto bacaan">
+
+                    <div v-for="data in artikel" class="col-12 mb-4">
+                        <div class="row py-0 m-y0">
+                            <div class="col py-0 my-0">
+                                <div class="card text-end list-artikel">
+                                    <div class="card-header">
+                                        <h2>{{data.judul}}</h2>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">By: {{data.oleh}}</h5>
+                                        <p class="card-text">{{data.deskripsi}}</p>
+                                        <a :href="'./read.html?article='+data.artikel" class="btn">SINI BACA</a>
+                                    </div>
+                                    <div class="card-footer ">
+                                        {{data.tanggal}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3 me-3 d-none d-md-block gambar-artikel">
+                                <img class="img-fluid gmb"
+                                    src="http://assets.kompasiana.com/items/album/2020/05/06/orange-flower-5eb292c1d541df077748ab55.jpg?t=o&v=770"
+                                    alt="Gambar Artikel">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid cont cont-2" id="kontak">
+        <div class="row py-5 h-100">
+            <div class="col-md-5 border-r border-t break-kata text-center">
+                <h2 class="judul-l">{{kontak.judul}}</h2>
+                <div class="col-12">
+                    <div class="garis"></div>
+                    <div class="d-inline-block"><i class="bi bi-asterisk"></i></div>
+                    <div class="garis"></div>
+                    <p class="subjudul-l">{{kontak.deskripsi}}</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-7 ">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nama kalian">
+                            <label for="floatingInput">Nama Kalian</label>
+                          </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Nama kalian">
+                            <label for="floatingInput">Email</label>
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Nama kalian">
+                            <label for="floatingInput">Subject</label>
+                          </div>
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 400px"></textarea>
+                            <label for="floatingTextarea2">Isi Pesan</label>
+                          </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+    <script src="./javascript/main.js"></script>
+
+</body>
+
+</html>
