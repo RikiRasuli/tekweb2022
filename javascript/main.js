@@ -63,7 +63,7 @@ Vue.createApp({
       {
         axios
           .get(
-            src="../artikel/artikel.json"
+            "https://raw.githubusercontent.com/RikiRasuli/tekweb2022/master/artikel/artikel.json"
             )
           .then((res) => {
             console.log(res.data);
@@ -82,7 +82,7 @@ Vue.createApp({
         console.log(artikel);
         axios
           .get(
-            src="../artikel/"+artikel
+            "https://raw.githubusercontent.com/RikiRasuli/tekweb2022/master/artikel/"+artikel
           )
           .then((res) => {
             var html = converter.makeHtml(res.data);           
