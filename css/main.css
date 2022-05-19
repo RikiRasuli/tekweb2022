@@ -332,6 +332,7 @@ table tr th{
     min-height: 100%;
     min-width: 100%;
     transform: translate(-50%, -50%);
+    object-fit:cover;
   }
 
 .btn  {
